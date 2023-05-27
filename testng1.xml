@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Dell/IdeaProjects/TestNgBatch1/src/class2">
+        <classes>
+            <class name="class2.AssertTitleDemo">
+                <methods>
+                    <include name="validDateTitle"/>
+                    <include name="validDateLoginTextDisplay"/>
+                </methods>
+            </class>
+            <class name="class2.AssertionDemo">
+                <methods>
+                    <include name="AssertionMethod"/>
+                </methods>
+            </class>
+            <class name="class2.DependOnMethodDemo">
+                <methods>
+                    <include name="openBrowserAndLaunch"/>
+                    <include name="validLogin"/>
+                    <include name="validateHomePage"/>
+                </methods>
+            </class>
+            <class name="class2.EnableAndDisableDemo">
+                <methods>
+                    <include name="firstTest"/>
+                    <include name="secondTest"/>
+                    <include name="thirdTest"/>
+                    <include name="validationOfTitle"/>
+                    <include name="validationOfText"/>
+                    <include name="validLogin"/>
+                </methods>
+            </class>
+            <class name="class2.PriorityDemo">
+                <methods>
+                    <include name="firstMethod"/>
+                    <include name="secondMethod"/>
+                    <include name="thirdMethod"/>
+                </methods>
+            </class>
+            <class name="class2.SoftAssertDemo">
+                <methods>
+                    <include name="softAssertionMethod"/>
+                </methods>
+            </class>
+            <class name="class2.SoftAssertDemo2">
+                <methods>
+                    <include name="validDateTitle"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

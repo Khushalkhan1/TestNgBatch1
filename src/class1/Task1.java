@@ -9,7 +9,7 @@ public class Task1 {
     public void firstMethod() {
         System.out.println("This is first method");
     }
-    @Test
+    @Test(groups = "sprin1")
     public void secondMethod(){
         System.out.println("I am second method");
     }
